@@ -1,0 +1,17 @@
+{
+  "name": "ollamaui",
+  "version": "1.0.0",
+  "main": "scripts/app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . OllamaUI --platform=darwin --arch=arm64 --out=build --overwrite --icon=images/icon.icns"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-packager": "^17.1.2"
+  }
+}
